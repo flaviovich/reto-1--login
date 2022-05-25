@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./img/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.login {
+    background-color: black;
+	height: 460px;
+	width: 300px;
+    border-radius: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	margin-top: -230px;
+	margin-left: -170px;
+    padding: 4em 2em;
+    color: white;
+}
+
+.logo {
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    width: 100px;
+    margin-top: -120px;
+    margin-left: -50px;
+}
+
+.login h1 {
+    text-align: center;
+    padding: 1em;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login input {
+    border: none;
+    background-color: black;
+    border-bottom: 1px solid white;
+    outline: none;
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.login button {
+    display: block;
+    background-color: red;
+    color: white;
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.login button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.login a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.login a:hover {
+    color: blue;
+}
